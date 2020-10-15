@@ -44,7 +44,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:background="#0521BD"
+        android:background="#253DA0"
         android:onClick="calcularPreço"
         android:text="calcular"
         android:textColor="#FFFDFD"
