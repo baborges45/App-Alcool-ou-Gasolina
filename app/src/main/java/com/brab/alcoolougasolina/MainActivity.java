@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         editAlcool     = findViewById(R.id.editTextAlcool);
-        editGasolina   = findViewById(R.id.editTextAlcool);
+        editGasolina   = findViewById(R.id.editTextGasolina);
         textResultado  = findViewById(R.id.textResultado);
 
     }

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
 
     <ImageView
@@ -106,7 +107,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/aditTextGasolina"
+            android:id="@+id/editTextGasolina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Preço da gasolina ex: 4.40"
