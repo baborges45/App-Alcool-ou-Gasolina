@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -42,14 +43,30 @@ public class MainActivity extends AppCompatActivity {
 //            senão é melhor alcool
             Double resultado = (valorAlcool / valorGasolina);
             if( resultado >= 0.7){
-                textResultado.setText("Abasteça com Gasolina");
+                //textResultado.setText("Abasteça com Gasolina");
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Abasteça com Gasolina",
+                        Toast.LENGTH_LONG
+                ).show();
             }else {
-                textResultado.setText("Abasteça com àlcool");
+                //textResultado.setText("Abasteça com àlcool");
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Abasteça com Álcool",
+                        Toast.LENGTH_LONG
+                ).show();
             }
 
         }else {
-            textResultado.setText("Preencha os valors primeiro!");
+            //textResultado.setText("Preencha os valors primeiro!");
+            Toast.makeText(
+                    getApplicationContext(),
+                    "Preencha os valores primeiro!",
+                    Toast.LENGTH_LONG
+            ).show();
         }
+
 
     }
 
